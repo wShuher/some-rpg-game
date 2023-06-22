@@ -591,9 +591,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     left: -100px;
     z-index: 0;
     position: relative;
-    -webkit-box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-    box-shadow: 0 25px 50px -10px rgba(26, 55, 77, 0.4);
-    height: 444px;
+    height: 360px;
+	width: 360px;
     margin-bottom: -200px;
 	box-shadow: -15px 0 0 0 black, 15px 0 0 0 black, 0 -15px 0 0 black, 0 15px 0 0 black, -15px 0 0 15px #00000050, 15px 0 0 15px #00000050, 0 -15px 0 15px #00000050, 0px 15px 0 15px #00000050, -15px 0 0 30px #00000025, 15px 0 0 30px #00000025, 0 -15px 0 30px #00000025, 0px 15px 0 30px #00000025;
 	}
@@ -811,13 +810,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .feature-1-wrap {
   position: relative; }
 
-.feature-1 {
-  padding: 30px;
+.feature-1 
+{
+  padding: 16px 30px 30px 24px;
   background: rgba(26, 55, 77, 0.05);
-  border-radius: 20px;
   min-height: calc(50% - 15px);
   top: 0;
-  margin-bottom: 30px !important; }
+  margin-bottom: 30px !important;
+      box-shadow: -2px 0 0 0 black, 2px 0 0 0 black, 0 -2px 0 0 black, 0 2px 0 0 black, -2px 0 0 4px #00000050, 2px 0 0 4px #00000050, 0 -2px 0 4px #00000050, 0px 2px 0 4px #00000050, -2px 0 0 4px #00000025, 2px 0 0 4px #00000025, 0 -2px 0 4px #00000025, 0px 2px 0 4px #00000025;
+}
   @media (max-width: 991.98px) {
     .feature-1 {
       display: block !important; } }
@@ -981,9 +982,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-size: 18px;
   font-weight: 700; }
 
-.feature-img-bg {
-  border-radius: 20px;
-  background-size: cover; }
+.feature-img-bg 
+{
+  background-size: cover;
+  box-shadow: -8px 0 0 0 black, 8px 0 0 0 black, 0 -8px 0 0 black, 0 8px 0 0 black, -8px 0 0 15px #00000050, 8px 0 0 15px #00000050, 0 -8px 0 15px #00000050, 0px 8px 0 15px #00000050, -8px 0 0 16px #00000025, 8px 0 0 16px #00000025, 0 -8px 0 16px #00000025, 0px 8px 0 16px #00000025;  
+}
   @media (max-width: 991.98px) {
     .feature-img-bg {
       height: 300px !important;
@@ -1013,7 +1016,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   margin-top: 25px; }
 
 .testimonial-section {
-  background: #f8f9fa;
   padding-top: 5rem !important;
   padding-bottom: 7rem !important; }
 
@@ -1407,6 +1409,27 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   src: url("../fonts/VT323/VT323-Regular.ttf") format("truetype");;
 }
 
+#topic1
+{
+	background-image: linear-gradient(transparent, white 100%), linear-gradient(to top, transparent, white 100%), url(../images/forest.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#topic3
+{
+	background-image: linear-gradient(transparent, white 100%), linear-gradient(to top, transparent, white 100%), url(../images/dungeon.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+#topic5
+{
+	background-image: linear-gradient(transparent, white 100%), linear-gradient(to top, transparent, white 100%), url(../images/tavern.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
 #gameNameH1
 {
   font-family: myFirstFont;
@@ -1423,4 +1446,30 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 {
   font-family: myFirstFont;
   font-size: 22px;
+}
+
+.image-wrap
+{
+	float: left;
+}
+
+.image-blur
+{
+	filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+#teaser
+{
+	box-shadow: -15px 0 0 0 black, 15px 0 0 0 black, 0 -15px 0 0 black, 0 15px 0 0 black, -15px 0 0 15px #00000050, 15px 0 0 15px #00000050, 0 -15px 0 15px #00000050, 0px 15px 0 15px #00000050, -15px 0 0 30px #00000025, 15px 0 0 30px #00000025, 0 -15px 0 30px #00000025, 0px 15px 0 30px #00000025;
+}
+
+.pixel-button
+{
+	padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 14px;
+	box-shadow: -2px 0 0 0 black, 2px 0 0 0 black, 0 -2px 0 0 black, 0 2px 0 0 black, -2px 0 0 4px #00000050, 2px 0 0 4px #00000050, 0 -2px 0 4px #00000050, 0px 2px 0 4px #00000050, -2px 0 0 4px #00000025, 2px 0 0 4px #00000025, 0 -2px 0 4px #00000025, 0px 2px 0 4px #00000025;
 }

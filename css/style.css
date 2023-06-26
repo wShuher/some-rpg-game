@@ -901,10 +901,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   display: block;
   width: 80px;
   height: 80px;
-  background: #204560;
-  border-radius: 50%;
-  -webkit-animation: pulse-border 1500ms ease-out infinite;
-  animation: pulse-border 1500ms ease-out infinite; }
+  background: #ce9c9c;
+  -webkit-animation: pulse-border 1000ms ease-out infinite;
+  animation: pulse-border 1000ms ease-out infinite; }
 
 .video-play-button:after {
   content: "";
@@ -918,8 +917,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   display: block;
   width: 80px;
   height: 80px;
-  background: #1A374D;
-  border-radius: 50%;
+  background: #cd4c4c;
   -webkit-transition: all 200ms;
   -o-transition: all 200ms;
   transition: all 200ms; }
@@ -1332,7 +1330,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   line-height: 1.6; }
   .site-footer .inner {
     padding-top: 0px;
-    padding-bottom: 70px;
     background: #f8f9fa; }
     .site-footer .inner.first {
       padding-top: 80px; }
@@ -1472,4 +1469,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     padding-right: 30px;
     font-size: 14px;
 	box-shadow: -2px 0 0 0 black, 2px 0 0 0 black, 0 -2px 0 0 black, 0 2px 0 0 black, -2px 0 0 4px #00000050, 2px 0 0 4px #00000050, 0 -2px 0 4px #00000050, 0px 2px 0 4px #00000050, -2px 0 0 4px #00000025, 2px 0 0 4px #00000025, 0 -2px 0 4px #00000025, 0px 2px 0 4px #00000025;
+}
+
+html {
+  scroll-behavior: smooth;
 }

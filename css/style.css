@@ -552,7 +552,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   padding: 7rem 0 10rem 0;
     background: #6998AB;
     margin-bottom: 100px;
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1403,26 +1403,28 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 @font-face
 {
   font-family: myFirstFont;
-  src: url("../fonts/VT323/VT323-Regular.ttf") format("truetype");;
+  src: url("../fonts/VT323/VT323-Regular.ttf") format("truetype");
+  
+  font-display: swap;
 }
 
 #topic1
 {
-	background-image: linear-gradient(transparent, white 100%), linear-gradient(to top, transparent, white 100%), url(../images/forest.jpg);
+	background-image: linear-gradient(transparent, white 100%), linear-gradient(to top, transparent, white 100%), url(../images/forest.webp);
     background-repeat: repeat-x;
     background-size: contain;
 }
 
 #topic3
 {
-	background-image: linear-gradient(transparent, white 100%), linear-gradient(to top, transparent, white 100%), url(../images/dungeon.jpg);
+	background-image: linear-gradient(transparent, white 100%), linear-gradient(to top, transparent, white 100%), url(../images/dungeon.webp);
     background-repeat: repeat-x;
     background-size: contain;
 }
 
 #topic5
 {
-	background-image: linear-gradient(transparent, white 100%), linear-gradient(to top, transparent, white 100%), url(../images/tavern.jpg);
+	background-image: linear-gradient(transparent, white 100%), linear-gradient(to top, transparent, white 100%), url(../images/tavern.webp);
     background-repeat: repeat-x;
     background-size: contain;
 }

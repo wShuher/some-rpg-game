@@ -1473,6 +1473,31 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 	box-shadow: -2px 0 0 0 black, 2px 0 0 0 black, 0 -2px 0 0 black, 0 2px 0 0 black, -2px 0 0 4px #00000050, 2px 0 0 4px #00000050, 0 -2px 0 4px #00000050, 0px 2px 0 4px #00000050, -2px 0 0 4px #00000025, 2px 0 0 4px #00000025, 0 -2px 0 4px #00000025, 0px 2px 0 4px #00000025;
 }
 
+.fixed_steam {
+	position: fixed;
+	top: 128px;
+	right: 0;
+	z-index: 999;
+	width: 96px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	border-radius:25px;
+	
+	-webkit-transition: width 0.5s ease-out;
+    transition: width 0.5s ease-out;
+}
+
+.fixed_steam:hover {
+    width: 238px;
+}
+
+.steam_link
+{
+	width: 138px;
+    height: 87px;
+    position: absolute;
+    left: 100px;
+}
+
 html {
   scroll-behavior: smooth;
 }
